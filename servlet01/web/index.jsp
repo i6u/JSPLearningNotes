@@ -11,6 +11,9 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <form action="annotations" method="post">
+      <input type="password">
+      <input type="submit" value="submit">
+  </form>
   </body>
 </html>
