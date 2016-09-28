@@ -11,4 +11,26 @@
         <servlet-name>HelloServlet</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>Lifecycle</servlet-name>
+        <servlet-class>zyr.learn.me.servlet.LifecycleServlet</servlet-class>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>行者孙</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Lifecycle</servlet-name>
+        <url-pattern>/lifecycle</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CharsetServlet</servlet-name>
+        <servlet-class>zyr.learn.me.servlet.CharsetServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CharsetServlet</servlet-name>
+        <url-pattern>/charset</url-pattern>
+    </servlet-mapping>
 </web-app>

@@ -8,11 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>abc</title>
   </head>
   <body>
-  <form action="annotations" method="post">
-      <input type="password">
+  <form action="services" method="post">
+      <input type="password" name="test">
       <input type="submit" value="submit">
   </form>
   </body>
